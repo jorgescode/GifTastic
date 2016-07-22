@@ -2,7 +2,7 @@ $(document).ready(function()
 {
 	// global variables
 	var apiKey = 'dc6zaTOxFJmzC';
-	var queryUrl = 'http://api.giphy.com/v1/gifs/search?q=%query%&api_key='+apiKey;
+	var queryUrl = 'https://api.giphy.com/v1/gifs/search?q=%query%&api_key='+apiKey;
 	var animalsArray = ['dog', 'cat', 'rabbit', 'hamster', 'skunk', 'goldfish', 'bird', 'ferret', 'turtle', 'sugar glider', 'chinchilla', 'hedgehog', 'hermit crab', 'gerbil', 'pygmy goat', 'chicken', 'capybara', 'teacup pig', 'serval', 'salamander', 'frog'];
 	var numGifs = 12;
 	var gifsArray = [];
