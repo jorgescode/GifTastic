@@ -1,1 +1,1 @@
-# GitTastic
+# GifTastic
